@@ -26,7 +26,7 @@ $ python main.py http://localhost:8096
 
 ## 参考文献
 
-https://www.exploit-db.com/exploits/41946
+https://www.exploit-db.com/exploits/41947
 
 https://dev.emby.media/reference/RestAPI/UserService/postUsersForgotpassword.html
 
