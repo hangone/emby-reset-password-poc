@@ -28,6 +28,8 @@ $ python main.py http://localhost:8096
 
 https://www.exploit-db.com/exploits/41947
 
+https://emby.media/support/articles/Admin-Password-Reset.html
+
 https://dev.emby.media/reference/RestAPI/UserService/postUsersForgotpassword.html
 
 https://dev.emby.media/reference/RestAPI/UserService/postUsersForgotpasswordPin.html
