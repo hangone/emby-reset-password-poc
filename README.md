@@ -2,7 +2,7 @@
 
 也是老洞了，但一直没修，甚至最新版也存在，重置密码的 Pin 过短导致可以爆破。
 
-临时缓解办法：考虑在反向代理上拦截 /emby/Users/ForgotPassword 和 /emby/Users/ForgotPassword/Pin 请求，并增加速率限制，当然这不治本。
+临时缓解办法：在服务器上创建一个名为 `/config/passwordreset.txt`（具体路径看服务器系统）的 *目录*， 权限改为 444 或更低，也考虑在反向代理上拦截 /emby/Users/ForgotPassword 和 /emby/Users/ForgotPassword/Pin 请求，并增加速率限制。
 
 ## POC 用法
 
